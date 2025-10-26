@@ -1,0 +1,28 @@
+{
+  "name": "zentaxa-landing-page",
+  "version": "1.0.0",
+  "description": "ZENTAXA AI Agent Management Platform - Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o",
+    "deploy:netlify": "netlify deploy --prod",
+    "deploy:vercel": "vercel --prod"
+  },
+  "keywords": [
+    "landing-page",
+    "ai",
+    "agents",
+    "zentaxa",
+    "static-site"
+  ],
+  "author": "ZENTAXA Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/zentaxa-landing-page.git"
+  },
+  "homepage": "https://zentaxa.me",
+  "devDependencies": {},
+  "dependencies": {}
+}
