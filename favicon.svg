@@ -1,5 +1,8 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    
+
+    <!-- High-contrast background to improve visibility at small sizes -->
+    <rect width="100" height="100" rx="18" fill="#0B1020"/>
+
     <defs>
         <!-- Define a linear gradient for the "Cosmic Flow" trail effect -->
         <linearGradient id="CosmicGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -10,23 +13,23 @@
     </defs>
     
     <!-- Icon Group: Galactic Data Node -->
-    <g style="filter: drop-shadow(0 0 8px rgba(0, 255, 255, 0.4)) drop-shadow(0 0 5px rgba(94, 53, 177, 0.7));" transform="translate(10, 10) scale(0.8)">
-        
-        <!-- 1. Central Core/Nexus (Represents AI Intelligence/Precision) -->
-        <circle cx="50" cy="50" r="10" fill="url(#CosmicGradient)" />
-        <circle cx="50" cy="50" r="4" fill="#FFFFFF" />
+    <!-- Note: Filters often get dropped in favicons; use thicker strokes and full-canvas layout -->
+    <g>
+        <!-- 1. Central Core/Nexus (larger for visibility) -->
+        <circle cx="50" cy="50" r="22" fill="url(#CosmicGradient)" />
+        <circle cx="50" cy="50" r="9" fill="#FFFFFF" />
 
-        <!-- 2. Primary Orbital Flow Path (Architecture/Structure) -->
-        <path fill="none" stroke="#283593" stroke-width="3" opacity="0.8" stroke-linecap="round" stroke-linejoin="round"
-            d="M 20 20 C 5 45, 10 70, 40 85 C 70 100, 95 90, 80 50" />
-        
-        <!-- 3. Secondary Orbital Flow Path (Dynamic Data/Voice) -->
-        <path fill="none" stroke="url(#CosmicGradient)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"
-            d="M 35 30 C 25 55, 30 75, 50 80 C 70 75, 75 55, 65 30" />
-        
-        <!-- 4. Highlight/Projection Arc (Cyan Precision) -->
-        <path fill="none" stroke="#00FFFF" stroke-width="2" stroke-linecap="round"
-            d="M 50 15 A 35 35 0 0 1 85 50" />
+        <!-- 2. Primary Orbital Flow Path (thicker stroke) -->
+        <path fill="none" stroke="#283593" stroke-width="6" opacity="0.9" stroke-linecap="round" stroke-linejoin="round"
+            d="M 12 22 C 4 44, 10 72, 40 88 C 70 102, 96 90, 84 50" />
+
+        <!-- 3. Secondary Orbital Flow Path (thicker stroke) -->
+        <path fill="none" stroke="url(#CosmicGradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"
+            d="M 28 30 C 20 55, 26 78, 50 84 C 74 78, 78 55, 68 30" />
+
+        <!-- 4. Highlight/Projection Arc (thicker stroke) -->
+        <path fill="none" stroke="#00FFFF" stroke-width="4" stroke-linecap="round"
+            d="M 50 12 A 38 38 0 0 1 88 50" />
     </g>
     
 </svg>
